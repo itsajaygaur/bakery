@@ -1,0 +1,36 @@
+.card{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 3px;
+}
+.description{
+    margin-left: 5px;
+}
+.description p{
+    font-size: small;
+    color: orange;
+}
+
+.card img{
+    width: 35%;
+    border-radius: 5px;
+}
+
+button{
+   color: green;
+   background-color: white;
+   border: 1px solid green;
+   font-weight: 600;
+   border-radius: 5px;
+   padding: 3px 8px;
+   align-self: flex-end;
+   font-size: small;
+   margin-right: 5px;
+   margin-bottom: 14px;
+}
+span{
+    margin-right: 4px;
+}

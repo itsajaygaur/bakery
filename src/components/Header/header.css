@@ -1,0 +1,84 @@
+img{
+    width: 100%;
+}
+.img-text{
+    display: flex;
+    position: absolute;
+    top: 225px;
+    left: 460px;
+
+}
+.img-text p{
+    font-size: 6px;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+.img-text span{
+    font-size: 16px;
+    position: relative;
+    top: -5px
+}
+
+h2{
+    position: absolute;
+    top: 210px;
+    font-size: 30px;
+    color: white;
+    margin-left: 5px;
+}
+
+
+.img-below-text{
+    margin: auto;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px grey;
+    position: relative;
+    top: -20px;
+}
+.img-below-text div{
+    margin-left: 10px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ .img-below-text span{
+     font-size: 14px;
+     position: relative;
+     top: -3px
+ }
+ 
+
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-msg{
+    width: 300px;
+    height: 40px;
+    border: 1px solid green;
+    background-color: rgb(223, 255, 223);
+    text-align: center;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coin-msg p{
+    color: green;
+    font-weight: bold;
+}
+hr{
+    height: 5px;
+    background: rgb(211, 211, 211);
+}
+
+

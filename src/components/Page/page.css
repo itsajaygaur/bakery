@@ -1,0 +1,19 @@
+
+.button-group button{
+    background: #dcf2f2;
+    color: black;
+    padding: 8px 50px;
+    cursor: pointer;
+     border: none;
+}
+
+.btn2{
+    position: relative;
+    right: 5px;
+}
+  
+  button:focus{
+    background-color: #4abdb6
+  }
+
+  
